@@ -40,3 +40,55 @@ h1 {
 */
 
 /* Your CSS code goes here */
+.container {
+	margin: 2em auto;
+	max-width: 630px;
+	text-align: center;
+}
+h1 {
+	font-family:  "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	font-size:1.5em;
+	background-color: #777;
+	color: white;
+  	height: 50px;
+  	text-align: center;
+}
+
+mark.red {
+    color:#ff0000;
+    background: none;
+}
+
+mark.black {
+    color:black;
+    background: none;
+}
+h2 {
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	color: #424242;
+	line-height: 1.0;
+	margin: 20px;
+}
+
+mark.number{
+	font-weight: bold;
+}
+h3 {
+  	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	color: #424242;
+	line-height: 1;
+  	margin: 20px;
+}
+h4 {
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	color: #424242;
+	line-height: 1.4;
+	color: blue;
+  	font-style:italic;
+  	margin: 20px;
+}
+* {
+	box-sizing: border-box;
+	margin: 1000 px;
+	padding: 100 px;
+}
